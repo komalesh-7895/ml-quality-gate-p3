@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
-df = pd.read_csv("iris.csv")
+df = pd.read_csv("Iris.csv")
 
 X = df.iloc[:, :-1]
 y = df.iloc[:, -1]
